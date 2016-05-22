@@ -1,0 +1,101 @@
+/*Author : Rahil Lakhani - rahillakhani */
+
+/* will follow smacss, oocss*/
+
+
+/* element level */
+
+body {
+	margin: 0;
+	padding:0;
+	background: #642BB2;
+	color: #ccc;
+	font-family: 'ubuntu';
+	font-size: 14px;
+}
+
+img {
+	max-width: 100%;
+	line-height: 0;
+	vertical-align: bottom;
+}
+
+/* common css */
+.container {
+	width: 100%;
+	max-width: 500px;
+	border: 1px solid #fff;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	margin: 15px auto;
+	/* padding: 20px; */
+}
+
+.text-center {
+	text-align: center;
+}
+.float-clear:after {
+	content: "";
+	display: block;
+	clear: both;	
+}
+.float-left {
+	float:left;
+}
+.float-right {
+	float: right;
+}
+
+/* specific css */
+.head-nav {
+	display: block;
+	padding: 10px;
+	border: 1px solid #fff;
+	margin: 10px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	color: #FFF;
+	text-decoration: none;
+	transition: background-color 0.5s ease;
+	min-width: 100px;
+
+}
+.head-nav:hover {
+	background: #fff;
+	color: #642BB2;
+}
+
+.name {
+	position: absolute;
+	bottom: 0px;
+	padding: 10px 0;
+	width: 100%;
+	/* border: 1px solid #642BB2; */
+	/* background: #fff; */
+	color: #642BB2 ;
+	color: #fff;
+	text-shadow: 2px 1px #333;
+	line-height: 2em;
+	font-size: 1.25em;
+	font-weight: bold;
+/* 	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+ */	
+/* background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+.profile-picture {
+	position: relative;
+}
+.profile-picture img{
+	/* width: 80%; */
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	border: 1px solid #ccc;
+	max-width: 498px;
+}
